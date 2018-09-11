@@ -16,6 +16,7 @@ pipeline {
         SBT_OPTS='-Xmx1024m -Xms512m'
         JAVA_OPTS='-Xmx1024m -Xms512m'
 		JAVA_HOME='/opt/tools/jdk1.8.0_181'
+		GRADLE_HOME='/usr/local/gradle-4.8.1'
     }
 	
     options {
