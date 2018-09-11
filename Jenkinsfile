@@ -6,7 +6,7 @@ node('linux') {
 pipeline {
 
     agent {
-		node('linux')
+		node('linuxSecondary')
 	}
 	
     environment {
