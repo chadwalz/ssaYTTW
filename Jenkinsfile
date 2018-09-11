@@ -48,7 +48,7 @@ pipeline {
             steps {
                 echo 'Run gradle -x test --info'
                 sh 'gradle --version'
-				sh '/usr/local/gradle-4.2.1/bin/gradle -x test --info'
+				sh '/usr/local/gradle-4.8.1/bin/gradle -x test --info'
             }
         }
         stage('Analyze') {
